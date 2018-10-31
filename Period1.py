@@ -1,8 +1,22 @@
-#  task 1
+import random
+import time
 
-def multiply(number1, number2):
-    multip = number1 * number2
-    return multip
+def rand_boo():
+    rand_num = random.randint(0,10)
+    time.sleep(int(rand_num))
+    print("boo")
 
-print(multiply(5,5))
+
+def rand_trt():
+    rand_numb = random.randint(1,2)
+    if rand_numb == 1:
+        print("TRICK")
+    if rand_numb == 2:
+        print("TREAT")
+
+def string(sentence):
+    full_sentence = ("spooky" + str(sentence))
+    print(full_sentence)
+
+
 
